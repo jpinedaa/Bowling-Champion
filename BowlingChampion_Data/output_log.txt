@@ -1,0 +1,153 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8494
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.157 seconds
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\OneDrive\Documents\3dgame\BowlingChampion_0416329_0416330\BowlingChampion_0416329_0416330\BowlingChampion_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 1.737087 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 4678 -> priority: 1 
+  Thread -> id: 467c -> priority: 1 
+  Thread -> id: 4680 -> priority: 1 
+  Thread -> id: 4684 -> priority: 1 
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.391804 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1283.
+Total: 1.633975 ms (FindLiveObjects: 0.135506 ms CreateObjectMapping: 0.025679 ms MarkObjects: 0.579160 ms  DeleteObjects: 0.892839 ms)
+
+Drag endX : 986Drag StartX: 1005
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 822Drag StartY: 269
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endX : 985Drag StartX: 977
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 718Drag StartY: 320
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.359803 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1236.
+Total: 2.037334 ms (FindLiveObjects: 0.081382 ms CreateObjectMapping: 0.030024 ms MarkObjects: 0.587457 ms  DeleteObjects: 1.337679 ms)
+
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.042568 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 1046.
+Total: 2.311112 ms (FindLiveObjects: 0.097185 ms CreateObjectMapping: 0.028049 ms MarkObjects: 0.573234 ms  DeleteObjects: 1.611852 ms)
+
+Drag endX : 909Drag StartX: 1015
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 1079Drag StartY: 128
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.109333 ms
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 964.
+Total: 1.227457 ms (FindLiveObjects: 0.089283 ms CreateObjectMapping: 0.026074 ms MarkObjects: 0.449975 ms  DeleteObjects: 0.661728 ms)
+
+Drag endX : 906Drag StartX: 988
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 1079Drag StartY: 100
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endX : 960Drag StartX: 965
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 1079Drag StartY: 108
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.256691 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 964.
+Total: 1.146864 ms (FindLiveObjects: 0.101530 ms CreateObjectMapping: 0.025283 ms MarkObjects: 0.995951 ms  DeleteObjects: 0.023308 ms)
+
+Drag endX : 1049Drag StartX: 994
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 1079Drag StartY: 66
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'Label') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.921284 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 964.
+Total: 0.579950 ms (FindLiveObjects: 0.104296 ms CreateObjectMapping: 0.024493 ms MarkObjects: 0.442469 ms  DeleteObjects: 0.007506 ms)
+
+Drag endX : 1057Drag StartX: 1057
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Drag endY: 263Drag StartY: 263
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.995951 ms
+
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 2.700247 ms (FindLiveObjects: 0.069925 ms CreateObjectMapping: 0.022518 ms MarkObjects: 0.353185 ms  DeleteObjects: 2.254223 ms)
+

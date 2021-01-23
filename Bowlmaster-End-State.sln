@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowlmaster-End-State", "Bowlmaster-End-State.csproj", "{3A535993-7DFF-C449-1238-8B41A4894748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowlmaster-End-State.Editor", "Bowlmaster-End-State.Editor.csproj", "{AE6CD5FB-F70A-D40B-9AD4-FBA056692108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A535993-7DFF-C449-1238-8B41A4894748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A535993-7DFF-C449-1238-8B41A4894748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A535993-7DFF-C449-1238-8B41A4894748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A535993-7DFF-C449-1238-8B41A4894748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6CD5FB-F70A-D40B-9AD4-FBA056692108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6CD5FB-F70A-D40B-9AD4-FBA056692108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6CD5FB-F70A-D40B-9AD4-FBA056692108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6CD5FB-F70A-D40B-9AD4-FBA056692108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

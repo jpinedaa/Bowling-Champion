@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>nunit.framework</name>
+	</assembly>
+	<members>
+		<member name="T:NUnit.Framework.Internal.ILogger">
+			<summary>Interface for custom logger implementation.</summary>
+		</member>
+		<member name="T:NUnit.Framework.RangeAttribute">
+			<summary>Attribute used to make a float or int variable in a script be restricted to a specific range.</summary>
+		</member>
+		<member name="T:NUnit.Framework.PropertyAttribute">
+			<summary>Base class to derive custom property attributes from. Use this to create custom attributes for script variables.</summary>
+		</member>
+		<member name="T:NUnit.Framework.Internal.Logger">
+			<summary>Initializes a new instance of the Logger.</summary>
+		</member>
+	</members>
+</doc>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingChampion_0416329_0416330", "BowlingChampion_0416329_0416330.csproj", "{446A68CA-8C5B-56F0-9AC1-3F0D2300C30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingChampion_0416329_0416330.Editor", "BowlingChampion_0416329_0416330.Editor.csproj", "{6C0A7EAE-69C6-E4F9-A66D-F5F2B0E4B519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446A68CA-8C5B-56F0-9AC1-3F0D2300C30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446A68CA-8C5B-56F0-9AC1-3F0D2300C30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446A68CA-8C5B-56F0-9AC1-3F0D2300C30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446A68CA-8C5B-56F0-9AC1-3F0D2300C30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0A7EAE-69C6-E4F9-A66D-F5F2B0E4B519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0A7EAE-69C6-E4F9-A66D-F5F2B0E4B519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0A7EAE-69C6-E4F9-A66D-F5F2B0E4B519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0A7EAE-69C6-E4F9-A66D-F5F2B0E4B519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
