@@ -14,19 +14,29 @@ Each level features an unique ball, lane and pins, the player must throw the bal
 The game controls consist of two parts, the first one is simple you are able to position the ball anywhere along the x axis as a starting point allowing you to throw at an angle. On the second part you have to use your mouse, you drag it from the center of the screen to an upward direction, any slight deviation on the mouse direction will cause the ball to steer on that direction requiring you to be very precise. 
 ### Levels
 •	Underground Level: You are in the streets of New York in front of some apartment building you got a soccer ball and some coke bottles and you made an improvised bowling alley which you use to practice.
+
  ![1](1.jpg)
+ 
 •	Pier Level: Your friend invited you to the beach where you coincidentally find that there are using the pier as bowling lane, you being the avid player you are of course, there won’t be a chance that you’ll not participate on this event.
+
  ![2](2.jpg)
+ 
 •	Antarctic Level: You decide to take your game to the next level so you travel to the Antarctic to play at extreme conditions. You play in the ice with some cute penguins, you can see the mountains covered in snow
+
 ![3](3.jpg)
+
 •	Space Level: People have noticed your passion for the game and so you have been invited to travel to space to be the best bowling champion both in Earth and outside Earth!
+
 ![4](4.jpg)
+
 ### Particle Systems
 •	Level 1-  Some Soda Bottles which are on both sides of the lane emit an upward almost spark like particle systems.
 •	Level 2- The boat on left of the alley has a particle system attached in which it emits  a smoke like effect making it seems as if the boat is burning. There are also three particle systems at the beginning of the bowling alley to make it seem as it is raining on the current scene.
 •	Level 3- On the lane floor area there are three particle systems of the same type which give the effect of thunderstorm clouds making it harder for the player to aim at the pins.
 •	Level 4-Now that our player has reach the outer place , his advancement on his bowling skills make his throws leave a trail of fire. This is made with a particle system which is embedded on the ball and emits the fire particles as it rolls.
+
 ![5](5.JPG)
+
 ### Sounds Effects
 •	Each Scene has their own background music: 
 o	Level 1 – Arcade Funk
@@ -37,8 +47,11 @@ o	Main menu – Star Master loop
 o	Player Wins – Ending music
 •	Balls has a rolling sound effect
 •	Player win screen has some explosive sound effects as well.
+
 ![6](6.JPG)
+
 ### System Architecture
+
 ![7](7.jpg)
 
 ## Technical Section
@@ -48,15 +61,21 @@ On a bowling lane there is a mechanism which swipes fallen pins out of the way e
 It works in the following manner:
 We first have a rectangle which we call the sweeper, it is a physically collide able object yet we set it as a kinematic object because we will be giving it a motion of our own.
 Then we create an animator which is the actual controller of the frames that we save on the sweeper’s swipe animation.  
+
 ![8](8.jpg)
+
 The picture above is the animators states which as previously stated just run the frames of the animation.
 #### Pin Setter Raise,Sweep,Lower state machine.
 Related to the Sweeper there is also a state machine for placing of non-fallen pins or replacing of them at the end of the turn. The machine works as follows:
+
 ![9](9.jpg)
+
 “At the end of every thrown ball the remaining pins that did not fall will be for  raised to avoid collision with the sweeper. After the sweeping we proceed to lower the remaining pins. The player makes it’s second throw and all pins are sweeped away. The Pin Setter instantiates a new set of Pins and lowers them on to the lane.”
 Thus we are now able to renew and destroy pins every turn if needed.
 Pin Setter code
+
 ![10](10.jpg)
+
 ### Physics
 #### Calculating the balls velocity.
 To throw the ball we simulate a swipe with our mouse as input device. The player holds the left click and drags on to direction he wishes to aim.
@@ -73,19 +92,25 @@ With these two values we proceed to assign these values on a new Vector3 to our 
 Ball.velocity = new Vector3 (launchSpeedX, 0 , laucnSpeedY)
 The Y value of our vector is 0 as we don’t want the ball to go upwards in the air.
 This is our code for calculating the velocity:
+
 ![11](11.jpg)
+
 #### Checking whether a Pin is down.
 To check whether a pin is down we check each of the pins rotations but we first have to translate them into Euler values because otherwise the values can be hard to work with when error checking.
 More specifically we check the tilt in the x and values to then compare them to a standingThreshold value we chose. This is our code:
+
 ![12](12.jpg)
+
 #### Creating of our own meshes
 1.	Coke Bottles
 2.	Penguins
 3.	Mountain Dew Bottles
 We used blender to create these meshes, all of them were made with the same technique in which we add a curve with multiple points and then we generate a mesh as a screw using the y-axis, this is a simple way of doing objects that have cylindrical symmetry. We then mapped the UV in order to apply textures to this meshes.
+
 ![13](13.jpg)
 ![14](14.jpg)
 ![15](15.jpg)
+
 ## Contributions and Implementations
 
 ### Alden:
@@ -100,9 +125,11 @@ We used blender to create these meshes, all of them were made with the same tech
 •	Self-made Materials: with the use of blender we made three different items which we place through out our levels. The Coke bottles on the first level, Penguins on the third Level and finally the Mountain Dew bottles on the second level. 
 •	Search for additional assets.
 ## Schedule/Milestones
+
 ![16](16.JPG)
 
 ## Strength Weaknesses Opportunities and Threats Analysis
+
 ![17](17.JPG)
 
 ## Conclusion
