@@ -1,10 +1,10 @@
 # Bowling-Champion
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="1.jpg">
-    <source src="demo.mp4" type="video/mp4">
-  </video>
-</figure>
+![](demo.mp4)
+<video controls="controls">
+  <source type="video/mp4" src="demo.mp4"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
 
 ## Game Design
 ### Features
