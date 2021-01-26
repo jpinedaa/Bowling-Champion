@@ -26,7 +26,7 @@ The game controls consist of two parts, the first one is simple you are able to 
 •	Level 2- The boat on left of the alley has a particle system attached in which it emits  a smoke like effect making it seems as if the boat is burning. There are also three particle systems at the beginning of the bowling alley to make it seem as it is raining on the current scene.
 •	Level 3- On the lane floor area there are three particle systems of the same type which give the effect of thunderstorm clouds making it harder for the player to aim at the pins.
 •	Level 4-Now that our player has reach the outer place , his advancement on his bowling skills make his throws leave a trail of fire. This is made with a particle system which is embedded on the ball and emits the fire particles as it rolls.
-![5](5.jpg)
+![5](5.JPG)
 ### Sounds Effects
 •	Each Scene has their own background music: 
 o	Level 1 – Arcade Funk
@@ -37,7 +37,7 @@ o	Main menu – Star Master loop
 o	Player Wins – Ending music
 •	Balls has a rolling sound effect
 •	Player win screen has some explosive sound effects as well.
-![6](6.jpg)
+![6](6.JPG)
 ### System Architecture
 ![7](7.jpg)
 
@@ -100,10 +100,10 @@ We used blender to create these meshes, all of them were made with the same tech
 •	Self-made Materials: with the use of blender we made three different items which we place through out our levels. The Coke bottles on the first level, Penguins on the third Level and finally the Mountain Dew bottles on the second level. 
 •	Search for additional assets.
 ## Schedule/Milestones
-![16](16.jpg)
+![16](16.JPG)
 
 ## Strength Weaknesses Opportunities and Threats Analysis
-![17](17.jpg)
+![17](17.JPG)
 
 ## Conclusion
 We believe that the game we developed is good enough taking in account the amount of time and effort we put into it. It was a lot of time approximately about 40 hours between the two of us and this includes the time we spent watching tutorials, reading documentation, fixing mistakes, etc. But we can say for sure that every second spent was a second we were enjoying. We were not expecting Unity to be so friendly and powerful, we can not understand how people, professional developers , look down on this platform. It may not have the best graphics, physics or anything but what it is and what it can achieve is more than enough for the growing market of  indie developers.
