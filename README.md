@@ -37,7 +37,7 @@ The game controls consist of two parts, the first one is simple you are able to 
 
 ![5](5.JPG)
 
-### Sounds Effects
+### Sound Effects
 •	Each Scene has their own background music: 
 o	Level 1 – Arcade Funk
 o	Level 2 – Power Up
