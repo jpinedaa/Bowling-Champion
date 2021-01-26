@@ -1,11 +1,4 @@
 # Bowling-Champion
-
-![](demo.mp4)
-<video controls="controls">
-  <source type="video/mp4" src="demo.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
-
 ## Game Design
 ### Features
 •	Physics: Physics that affect the interacting objects of the game i.e. The ball, the lane and the pins.
